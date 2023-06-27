@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #777;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-24 {
+  font-size: 24px;
+}
+.font-28 {
+  font-size: 28px;
+}
+.text-start {
+  text-align: left !important;
+}
+.me-3 {
+  margin-right: 2rem !important;
+}
+.text-primary {
+  color: #fd5d14 !important;
+}
+.fs-1 {
+  font-size: calc(2.5rem + 1.5vw) !important;
+}
+.fw-bold {
+  font-weight: 700 !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.py-3 {
+  padding-top: 2.5rem !important;
+  padding-bottom: 1rem !important;
+}
+@media (min-width: 992px) {
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333%;
+  }
+}
+@media (min-width: 992px) {
+  .d-lg-block {
+    display: block !important;
+  }
+  .px-5 {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+  }
+}
+.border-start {
+  border-left: 1px solid #dee2e6 !important;
+}
+.border-bottom {
+  border-bottom: 1px solid #dee2e6 !important;
+}
+.bi-envelope-open::before {
+  content: "\f32e";
+}
+.bi-phone-vibrate::before {
+  content: "\f4e6";
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #040f28;
+}
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0px !important;
+  border: 1px solid transparent;
+}
+.navbar-collapse {
+  flex-basis: 100% !important;
+  flex-grow: 1 !important;
+  align-items: center !important;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: space-between !important;
+  }
+}
+.carousel .carousel-status {
+  font-size: 0px !important;
+}
+.thumbs {
+  display: none !important;
+}
+.carousel .slide {
+  height: 100vh !important;
+}
+.service-section {
+  margin-top: 7rem;
+}
+.fa-3x {
+  font-size: 5em;
+}
+.service-section-tabs {
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+}
+
+.custom-btn{
+  color: #000;
+  background-color: #FD5D14 !important;
+  border-color: #FD5D14 !important;
+
+
+    display: inline-block;
+    font-weight: 500;
+    /* line-height: 1.5; */
+    color: #fffefe;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 2rem !important;
+    border-radius: false;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out !important;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.custom-btn:hover{
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out !important;
+
+  color: #000;
+  background-color: #fd7537;
+  border-color: #fd6d2c;
+}
+.btn-square, .btn-sm-square, .btn-lg-square {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+.btn-lg-square {
+  width: 46px;
+  height: 46px;
+}
+.btn-primary {
+  color: #FFFFFF;
+}
+.btn {
+  position: relative;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: .5s;
+}
+.icons{
+  margin-left: 1rem;
+  height: 4rem;
+  width: 4rem;
+}
+.footer-reserved{
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.carousel-inner{
+  height: 100vh;
+}
+.team-content-height{
+  height: 45vh;
+}
+@media only screen and (max-width: 767px) {
+  .team-content-height{
+    height: 75vh;
+  }
+  .carousel-inner{
+    height: 29vh;
+  }
+  .carousel .slide {
+    height: 30vh !important;
+}
+.display-4 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.navbar-brand {
+  padding: 0px 0px;
+}
+}
+/* @media only screen and (max-width: 550px) {
+
+  .carousel .slide {
+    height: 30vh !important;
+}
+}
+@media only screen and (max-width: 754px) {
+
+  .carousel .slide {
+    height: 32vh !important;
+}
+} */
