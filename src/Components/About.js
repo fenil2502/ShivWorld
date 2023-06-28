@@ -9,7 +9,7 @@ function About() {
     <div className="container-fluid py-6 px-5">
         <h1 className="font-28 display-5 text-uppercase mb-5 text-center">
           {" "}
-          Waht <span className="text-primary">We are</span> done
+          Waht <span className="text-primary">We are</span> doing
         </h1>
         <div className="row g-5">
           <div className="col-lg-7 mt-4">
