@@ -14,15 +14,14 @@ function Footer() {
       <div className="footer container-fluid position-relative bg-dark bg-light-radial text-white-50 py-6 px-5">
         <div className="row g-5">
           <div className="col-lg-6 pe-lg-5">
-            <a href="index.html" className="">
+            <div className="">
               <h1 className="m-0 display-4 text-uppercase text-white">
                 <i className="bi bi-building text-primary me-2"></i> SHIV WORLD
               </h1>
-            </a>
+            </div>
             <p className="font-18 mt-2">Connecting Worlds, Empowering Trade.</p>
             <p className="font-18 mt-5">
-              <i className="fa fa-map-marker-alt me-2"></i> A AB 2, YOGESHWAR
-              APPT,Ahmedabad , Gujarat 380024
+              <i className="fa fa-map-marker-alt me-2"></i> A AB 2, Yogeshwar APPT,Ahmedabad , Gujarat 380024
             </p>
             <p className="font-18">
               <i className="fa fa-phone-alt me-2"></i> +91 87349 91764

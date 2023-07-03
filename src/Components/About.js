@@ -9,7 +9,7 @@ function About() {
     <div className="container-fluid py-6 px-5">
         <h1 className="font-28 display-5 text-uppercase mb-5 text-center">
           {" "}
-          Waht <span className="text-primary">We are</span> doing
+          Waht <span className="text-primary">We are</span> done
         </h1>
         <div className="row g-5">
           <div className="col-lg-7 mt-4">
@@ -28,9 +28,7 @@ function About() {
               </span>
               , a leading global import-export company dedicated to facilitating
               seamless trade and fostering international partnerships. With a
-              passion for connecting businesses and bridging markets, we
-              specialize in the efficient and reliable movement of goods across
-              borders.
+              passion for connecting businesses and bridging markets.
             </p>
             <div className="row gx-5 py-2">
               <div className="col-sm-6 mb-2">
@@ -65,9 +63,7 @@ function About() {
             <p className="mb-4 font-16">
               Whether you are a small business looking to explore new markets or
               an established enterprise seeking to optimize your supply chain,
-              we are here to support you every step of the way. Our dedication
-              to excellence, global reach, and unwavering commitment to customer
-              success make us the preferred partner for import-export services.
+              we are here to support you every step of the way.
             </p>
             {/* <img src={Carousel2} alt=""/> */}
           </div>

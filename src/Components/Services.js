@@ -19,10 +19,10 @@ function Services() {
         </div>
         <div className="row g-5 service-section">
           <div className="col-lg-4 col-md-6 service-section-tabs">
-            <div className="service-item bg-white d-flex flex-column align-items-center text-center">
+            <div className="service-item bg-white d-flex flex-column align-items-center text-center pt-4">
               <img className="img-fluid" src={Service1} alt="" />
               <div className="service-icon bg-white">
-                <i className="fa fa-3x fa-building text-primary"></i>
+                <i className="fa fa-4x fa-building text-primary"></i>
               </div>
               <div className="px-4 pb-4">
                 <h4 className="text-uppercase mb-3  font-20">
@@ -39,10 +39,10 @@ function Services() {
             </div>
           </div>
           <div className="col-lg-4 col-md-6 service-section-tabs">
-            <div className="service-item bg-white rounded d-flex flex-column align-items-center text-center">
+            <div className="service-item bg-white rounded d-flex flex-column align-items-center text-center pt-4">
               <img className="img-fluid" src={Service2} alt="" />
               <div className="service-icon bg-white">
-                <i className="fa fa-3x fa-shopping-bag text-primary"></i>
+                <i className="fa fa-4x fa-shopping-bag text-primary"></i>
               </div>
               <div className="px-4 pb-4">
                 <h4 className="text-uppercase mb-3 font-20">
@@ -60,10 +60,10 @@ function Services() {
             </div>
           </div>
           <div className="col-lg-4 col-md-6 service-section-tabs">
-            <div className="service-item bg-white rounded d-flex flex-column align-items-center text-center">
+            <div className="service-item bg-white rounded d-flex flex-column align-items-center text-center pt-4">
               <img className="img-fluid" src={Service3} alt="" />
               <div className="service-icon bg-white">
-                <i className="fa fa-3x fa-drafting-compass text-primary"></i>
+                <i className="fa fa-4x fa-drafting-compass text-primary"></i>
               </div>
               <div className="px-4 pb-4">
                 <h4 className="text-uppercase mb-3 font-20">
@@ -80,10 +80,10 @@ function Services() {
             </div>
           </div>
           <div className="col-lg-4 col-md-6 service-section-tabs">
-            <div className="service-item bg-white rounded d-flex flex-column align-items-center text-center">
+            <div className="service-item bg-white rounded d-flex flex-column align-items-center text-center pt-4">
               <img className="img-fluid" src={Service4} alt="" />
               <div className="service-icon bg-white">
-                <i className="fa fa-3x fa-palette text-primary"></i>
+                <i className="fa fa-4x fa-palette text-primary"></i>
               </div>
               <div className="px-4 pb-4">
                 <h4 className="text-uppercase mb-3 font-20">
@@ -100,27 +100,26 @@ function Services() {
             </div>
           </div>
           <div className="col-lg-4 col-md-6 service-section-tabs">
-            <div className="service-item bg-white rounded d-flex flex-column align-items-center text-center">
+            <div className="service-item bg-white rounded d-flex flex-column align-items-center text-center pt-4">
               <img className="img-fluid" src={Service5} alt="" />
               <div className="service-icon bg-white">
-                <i className="fa fa-3x fa-tools text-primary"></i>
+                <i className="fa fa-4x fa-tools text-primary"></i>
               </div>
               <div className="px-4 pb-4">
                 <h4 className="text-uppercase mb-3 font-20">
                   Fixing & Support
                 </h4>
                 <p className="font-16">
-                  Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut
-                  amet sed erat sed sed amet magna elitr amet kasd diam duo
+                Fixing and supporting your import-export journey, one step at a time. Together, we can navigate the complexities of the global market, adapt to changing demands, and create a sustainable path to growth.
                 </p>
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 service-section-tabs">
-            <div className="service-item bg-white rounded d-flex flex-column align-items-center text-center">
+            <div className="service-item bg-white rounded d-flex flex-column align-items-center text-center pt-4">
               <img className="img-fluid" src={Service6} alt="" />
               <div className="service-icon bg-white">
-                <i className="fa fa-3x fa-paint-brush text-primary"></i>
+                <i className="fa fa-4x fa-paint-brush text-primary"></i>
               </div>
               <div className="px-4 pb-4">
                 <h4 className="text-uppercase mb-3 font-20">
